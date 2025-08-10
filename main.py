@@ -10,7 +10,7 @@ class App(badge.BaseApp):
         badge.display.show()
     
     def loop(self):
-        if badge.input.get_button(Buttons.SW3):
+        if badge.input.get_button(Buttons.SW8):
             badge.display.nice_text("Cherries cherries cherries!!", 50, 100 - FONT_SIZE, FONT_SIZE)
             badge.display.fill(1)
             badge.display.show()
