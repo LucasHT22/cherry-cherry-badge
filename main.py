@@ -1,7 +1,7 @@
 import badge
 from badge.input import Buttons
 
-FONT_SIZE = 25
+FONT_SIZE = 32
 
 class App(badge.BaseApp):
     def on_open(self):
